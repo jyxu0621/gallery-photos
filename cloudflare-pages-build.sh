@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Mirror gallery-photos/photos to the gallery-images Pages project.
 rm -rf dist
 mkdir -p dist/photos
 cp -R photos/. dist/photos/
